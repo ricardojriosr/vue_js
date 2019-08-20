@@ -10,13 +10,12 @@
     <div class="nav-bar"></div>
 
     <div id="app">
-    <product></product>
+      <product :premium="premium"></product>
     </div>
-
 
 
     <!-- development version, includes helpful console warnings -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="JS/lesson7.js"></script>
+  <script src="JS/lesson8.js"></script>
   </body>
 </html>
